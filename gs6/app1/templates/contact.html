@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        
+        h1:nth-child(2) {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    
+    <body>
+        <h1>my contact page </h1> 
+        <h1>
+            name {{nm}} contact {{con}} and email {{em}}
+        </h1>
+    </body>
+
+{% endblock content %}

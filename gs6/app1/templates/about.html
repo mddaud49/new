@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        
+        h1:nth-child(2) {
+            color: green;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+    
+    <h1>my about page </h1> 
+    <h1>
+        INSTTITUE {{inst}}
+        <br>
+        COURSE NAME {{cu}}
+        <br>
+        FEES {{fs}}
+    </h1>
+
+{% endblock content %}
